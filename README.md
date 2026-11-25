@@ -10,7 +10,7 @@ The download is public. You can play locally without installing Unreal Editor or
    ```text
    db92109ff3ecf71a03b2436860e4b8ace7a6117c40357fc9b600bc7a291c65c9
    ```
-2. Extract the entire ZIP to `%LOCALAPPDATA%\Clean Sweep LIVE`. Keep all the extracted files and folders together, with `CleanSweepLive.exe` directly inside that folder.
+2. Extract the entire ZIP to `%LOCALAPPDATA%\Clean Sweep LIVE\Selected Wardrobes`. Keep all the extracted files and folders together, with `CleanSweepLive.exe` directly inside that folder.
 3. In File Explorer, right-click `CleanSweepLive.exe` and choose **Send to → Desktop (create shortcut)**. On Windows 11, you may need **Show more options** first. Rename the shortcut **Clean Sweep LIVE**. In shortcut **Properties**, check that **Target** points to the installed EXE and **Start in** points to the install folder. Use the EXE's icon.
 
 The desktop shortcut opens Grungy House. To open Playhouse Park, use `Play Playhouse Park.cmd` in the install folder. See `Controls.txt` for controls.
@@ -25,7 +25,7 @@ Download this ZIP:
 https://github.com/DSBMediaCreative/UE5-Tests/releases/download/clean-sweep-live-selected-wardrobes-win64/CleanSweepLIVE-SelectedWardrobes-Windows.zip
 Verify its SHA-256 before extracting:
 db92109ff3ecf71a03b2436860e4b8ace7a6117c40357fc9b600bc7a291c65c9
-Extract the whole ZIP to %LOCALAPPDATA%\Clean Sweep LIVE.
+Extract the whole ZIP to %LOCALAPPDATA%\Clean Sweep LIVE\Selected Wardrobes.
 Keep all files together with CleanSweepLive.exe at the install root.
 Resolve the user's desktop with [Environment]::GetFolderPath('DesktopDirectory')
 so the shortcut lands on the actual desktop, including OneDrive redirection.
